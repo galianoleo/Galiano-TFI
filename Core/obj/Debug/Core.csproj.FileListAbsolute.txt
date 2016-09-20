@@ -25,3 +25,6 @@ C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Core\bin\
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Core\obj\Debug\Core.dll
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Core\obj\Debug\Core.pdb
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Core\obj\Debug\Core.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Core\obj\Debug\Core.pdb
