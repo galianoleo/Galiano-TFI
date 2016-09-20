@@ -1,0 +1,36 @@
+G:\TFI\MotoGraphics\Consola\bin\Debug\Consola.exe.config
+G:\TFI\MotoGraphics\Consola\bin\Debug\Consola.exe
+G:\TFI\MotoGraphics\Consola\bin\Debug\Consola.pdb
+G:\TFI\MotoGraphics\Consola\bin\Debug\Core.dll
+G:\TFI\MotoGraphics\Consola\bin\Debug\DAL.dll
+G:\TFI\MotoGraphics\Consola\bin\Debug\Funciones.dll
+G:\TFI\MotoGraphics\Consola\bin\Debug\Core.pdb
+G:\TFI\MotoGraphics\Consola\bin\Debug\DAL.pdb
+G:\TFI\MotoGraphics\Consola\bin\Debug\Funciones.pdb
+G:\TFI\MotoGraphics\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
+G:\TFI\MotoGraphics\Consola\obj\Debug\Consola.exe
+G:\TFI\MotoGraphics\Consola\obj\Debug\Consola.pdb
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\Consola.exe.config
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\obj\Debug\Consola.exe
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\obj\Debug\Consola.pdb
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\Consola.exe
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\Consola.pdb
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\Core.dll
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\DAL.dll
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\Funciones.dll
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\Core.pdb
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\DAL.pdb
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\bin\Debug\Funciones.pdb
+C:\Users\lgaliano\Documents\UAI\MotoGraphics\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\Consola.exe.config
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\Consola.exe
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\Consola.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\Core.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\DAL.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\Funciones.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\Core.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\DAL.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\bin\Debug\Funciones.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\obj\Debug\Consola.exe
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\obj\Debug\Consola.pdb
