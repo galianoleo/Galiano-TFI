@@ -1,0 +1,10 @@
+G:\TFI\MotoGraphics\Seguridad\bin\Debug\Seguridad.dll
+G:\TFI\MotoGraphics\Seguridad\bin\Debug\Seguridad.pdb
+G:\TFI\MotoGraphics\Seguridad\obj\Debug\Seguridad.csprojResolveAssemblyReference.cache
+G:\TFI\MotoGraphics\Seguridad\obj\Debug\Seguridad.dll
+G:\TFI\MotoGraphics\Seguridad\obj\Debug\Seguridad.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Seguridad\bin\Debug\Seguridad.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Seguridad\bin\Debug\Seguridad.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Seguridad\obj\Debug\Seguridad.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Seguridad\obj\Debug\Seguridad.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Seguridad\obj\Debug\Seguridad.pdb
