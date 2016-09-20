@@ -4,7 +4,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPrincipal" runat="server">
     <h1>
-    
   </h1>
      <!-- Jumbotron -->
       <div class="jumbotron">

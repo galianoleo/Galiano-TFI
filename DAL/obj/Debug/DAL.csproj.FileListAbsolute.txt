@@ -19,3 +19,10 @@ C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\DAL\bin\D
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\DAL\obj\Debug\DAL.dll
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\DAL\obj\Debug\DAL.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\DAL\bin\Debug\DAL.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\DAL\bin\Debug\DAL.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\DAL\bin\Debug\Funciones.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\DAL\bin\Debug\Funciones.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\DAL\obj\Debug\DAL.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\DAL\obj\Debug\DAL.pdb

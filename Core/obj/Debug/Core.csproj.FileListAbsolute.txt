@@ -25,3 +25,12 @@ C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Core\bin\
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Core\obj\Debug\Core.dll
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Core\obj\Debug\Core.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\bin\Debug\Core.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\bin\Debug\Core.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\bin\Debug\DAL.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\bin\Debug\Funciones.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\bin\Debug\DAL.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\bin\Debug\Funciones.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\obj\Debug\Core.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Core\obj\Debug\Core.pdb
