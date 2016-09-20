@@ -1,0 +1,28 @@
+G:\TFI\MotoGraphics\MotoGraphics\bin\MotoGraphics.dll.config
+G:\TFI\MotoGraphics\MotoGraphics\bin\MotoGraphics.dll
+G:\TFI\MotoGraphics\MotoGraphics\bin\MotoGraphics.pdb
+G:\TFI\MotoGraphics\MotoGraphics\bin\Core.dll
+G:\TFI\MotoGraphics\MotoGraphics\bin\Newtonsoft.Json.dll
+G:\TFI\MotoGraphics\MotoGraphics\bin\DAL.dll
+G:\TFI\MotoGraphics\MotoGraphics\bin\Funciones.dll
+G:\TFI\MotoGraphics\MotoGraphics\bin\Core.pdb
+G:\TFI\MotoGraphics\MotoGraphics\bin\Newtonsoft.Json.xml
+G:\TFI\MotoGraphics\MotoGraphics\bin\DAL.pdb
+G:\TFI\MotoGraphics\MotoGraphics\bin\Funciones.pdb
+G:\TFI\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.csprojResolveAssemblyReference.cache
+G:\TFI\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.dll
+G:\TFI\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\MotoGraphics.dll.config
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\MotoGraphics.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\MotoGraphics.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\Core.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\Newtonsoft.Json.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\DAL.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\Funciones.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\Core.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\Newtonsoft.Json.xml
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\DAL.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\bin\Funciones.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.pdb
