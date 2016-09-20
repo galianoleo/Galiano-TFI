@@ -1,0 +1,10 @@
+G:\TFI\MotoGraphics\Excepciones\bin\Debug\Excepciones.dll
+G:\TFI\MotoGraphics\Excepciones\bin\Debug\Excepciones.pdb
+G:\TFI\MotoGraphics\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+G:\TFI\MotoGraphics\Excepciones\obj\Debug\Excepciones.dll
+G:\TFI\MotoGraphics\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Excepciones\obj\Debug\Excepciones.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Excepciones\obj\Debug\Excepciones.pdb
