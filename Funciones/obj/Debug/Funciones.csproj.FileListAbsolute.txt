@@ -1,0 +1,10 @@
+G:\TFI\MotoGraphics\Funciones\bin\Debug\Funciones.dll
+G:\TFI\MotoGraphics\Funciones\bin\Debug\Funciones.pdb
+G:\TFI\MotoGraphics\Funciones\obj\Debug\Funciones.csprojResolveAssemblyReference.cache
+G:\TFI\MotoGraphics\Funciones\obj\Debug\Funciones.dll
+G:\TFI\MotoGraphics\Funciones\obj\Debug\Funciones.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Funciones\bin\Debug\Funciones.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Funciones\bin\Debug\Funciones.pdb
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Funciones\obj\Debug\Funciones.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Funciones\obj\Debug\Funciones.dll
+C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Funciones\obj\Debug\Funciones.pdb
