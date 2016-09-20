@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE000134-A853-41E3-9D79-3513A1312F5A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Articulo.cs" />
+    <Compile Include="Bitacora.cs" />
+    <Compile Include="Carrito.cs" />
+    <Compile Include="CategoriaArticulo.cs" />
+    <Compile Include="Ciudad.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Comprobante.cs" />
+    <Compile Include="ComprobanteDetalle.cs" />
+    <Compile Include="CuentaCorriente.cs" />
+    <Compile Include="Direccion.cs" />
+    <Compile Include="DraObjeto.cs" />
+    <Compile Include="Empleado.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="FormaDePago.cs" />
+    <Compile Include="Formulario.cs" />
+    <Compile Include="Impuesto.cs" />
+    <Compile Include="ImpuestoDeComprobante.cs" />
+    <Compile Include="ListaDePrecios.cs" />
+    <Compile Include="Pago.cs" />
+    <Compile Include="Pais.cs" />
+    <Compile Include="Partido.cs" />
+    <Compile Include="Perfil.cs" />
+    <Compile Include="Permiso.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provincia.cs" />
+    <Compile Include="Remito.cs" />
+    <Compile Include="RemitoDetalle.cs" />
+    <Compile Include="TipoDeComprobante.cs" />
+    <Compile Include="TipoDeDireccion.cs" />
+    <Compile Include="TipoDeDocumento.cs" />
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{f1bdf301-380b-4c99-aa1d-8081da1beadd}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Funciones\Funciones.csproj">
+      <Project>{536fd3ea-f19a-4d57-9a91-dd2afed24315}</Project>
+      <Name>Funciones</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
