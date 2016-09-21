@@ -17,21 +17,25 @@
                 <label>
                     Email *
                 </label>
-                <input type="text" />
+                <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                <%--<input type="text" />--%>
                 <label>
                     Repetir email *
                 </label>
-                <input type="text" />
+                <asp:TextBox ID="txtRepetirEmail" runat="server"></asp:TextBox>
+                
             </p>
             <p>
                 <label>
                     Password*
                 </label>
-                <input type="text" />
+                <asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
+                <%--<input type="text" />--%>
                 <label>
                     Repetir Password*
                 </label>
-                <input type="text" />
+                <asp:TextBox ID="txtRepetirPass" runat="server"></asp:TextBox>
+                <%--<input type="text" />--%>
                 <label class="obinfo">
                     * Campos Obligatorios
                 </label>
@@ -44,41 +48,47 @@
                 <label>
                     Nombre *
                 </label>
-                <input type="text" class="long" />
+                <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+                <%--<input type="text" class="long" />--%>
             </p>
             <p>
                 <label>
                     Telefono *
                 </label>
-                <input type="text" maxlength="10" />
+                <asp:TextBox ID="txtTelefono" runat="server"></asp:TextBox>
+                <%--<input type="text" maxlength="10" />--%>
             </p>
             <p>
                 <label class="optional">
                     Direccion
                 </label>
-                <input type="text" class="long" />
+                <asp:TextBox ID="txtDireccion" runat="server"></asp:TextBox>
+                <%--<input type="text" class="long" />--%>
             </p>
             <p>
                 <label>
                     Ciudad *
                 </label>
-                <input type="text" class="long" />
+                <asp:TextBox ID="txtCiudad" runat="server"></asp:TextBox>
+                <%--<input type="text" class="long" />--%>
             </p>
             <p>
                 <label>
                     Pais *
                 </label>
                 <select>
-                    <option></option>
+                    <asp:DropDownList ID="ddlPais" runat="server"></asp:DropDownList>
+                    <%--<option></option>
                     <option value="1">Argentina
-                    </option>
+                    </option>--%>
                 </select>
             </p>
             <p>
                 <label class="optional">
                     Website
                 </label>
-                <input class="long" type="text" value="http://" />
+                <asp:TextBox ID="txtWebSite" CssClass="long" runat="server"></asp:TextBox>
+                <%--<input class="long" type="text" value="http://" />--%>
 
             </p>
         </fieldset>
@@ -209,7 +219,8 @@
         </fieldset>--%>
         <fieldset class="row4">
             <div>
-                <button class="buttonLEO">Registrar &raquo;</button></div>
+                <asp:Button ID="btnRegistrar" CssClass="buttonLEO" runat="server" Text="Registrar &raquo;" />
+                <%--<button class="buttonLEO">Registrar &raquo;</button>--%></div>
         </fieldset>
 
     </form>
