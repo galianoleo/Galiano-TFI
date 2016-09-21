@@ -13,3 +13,8 @@ C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Seguridad\bin
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Seguridad\obj\Debug\Seguridad.csprojResolveAssemblyReference.cache
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Seguridad\obj\Debug\Seguridad.dll
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Seguridad\obj\Debug\Seguridad.pdb
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Seguridad\bin\Debug\Seguridad.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Seguridad\bin\Debug\Seguridad.pdb
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Seguridad\obj\Debug\Seguridad.csprojResolveAssemblyReference.cache
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Seguridad\obj\Debug\Seguridad.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Seguridad\obj\Debug\Seguridad.pdb

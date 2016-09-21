@@ -4,8 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-       <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta charset="utf-8" />
     <title>MotoGrafics</title>
     <%-- <meta name="generator" content="Bootply" />--%>
@@ -25,59 +25,81 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
 
-        <div class="navbar-header">
-
-            <%--<h3 class="text-muted">MotoGrafics</h3>--%>
-            <%--<ul class="nav navbar-nav navbar-right">
-                        <li id="UserName">
-                            <asp:Label ID="lblusername" class="navbar-brand" runat="server"></asp:Label></li>
-                        <li id="log"><a href="../Formularios/LogIn.aspx">Iniciar Sesion</a></li>
-                    </ul>--%>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </div>
         </div>
-        <nav>
-            <ul class="nav nav-justified">
-                <li class="active"><a href="/Formularios/Index.aspx">Home</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Producto</a></li>
-                        <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Producots</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Dropdown header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Ver Articulos</a></li>
-                <li><a href="#">Descargas</a></li>
-                <li><a href="#">Acerca de...</a></li>
-                <li><a href="#">Contactos</a></li>
-
-                <%--<li id="log"><a href="/Formularios/LogIn.aspx">Iniciar Sesion</a></li>--%>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/Formularios/LogIn.aspx">Iniciar Sesion</a></li>
-                        <li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>
-                    </ul>
-                </li>
-
-            </ul>
-        </nav>
-
     </nav>
 
 
-    <%--</div>--%>
-    <div class="container">
-        <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
-        </asp:ContentPlaceHolder>
-        <!-- Site footer -->
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+
+                <ul class="nav nav-pills nav-stacked">
+                    <li id="MasterLabelProyectos" class="dropdown" runat="server">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <asp:Label ID="Label11" runat="server" Text="Proyectos" meta:resourcekey="NuevoProyectosResource1">
+                            </asp:Label>
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li id="liAltaProyecto" runat="server">
+                                <a href="AltaProyecto.aspx">
+                                    <asp:Label ID="Label1" runat="server" Text="Nuevo Proyecto" meta:resourcekey="NuevoAPResource1">
+                                    </asp:Label></a>
+                            </li>
+                            <li id="liModificarProyecto" runat="server">
+                                <a href="SeleccionarModificarProyecto.aspx">
+                                    <asp:Label ID="Label2" runat="server" Text="Actualizar Proyecto" meta:resourcekey="NuevoMPResource1">
+                                    </asp:Label></a>
+                            </li>
+                            <li id="liBajaProyecto" runat="server">
+                                <a href="BajaProyecto.aspx">
+                                    <asp:Label ID="Label3" runat="server" Text="Eliminar Proyecto" meta:resourcekey="NuevoBPResource1">
+                                    </asp:Label></a>
+                            </li>
+                            <li id="liVerProyecto" runat="server">
+                                <a href="SeleccionarVerProyecto.aspx">
+                                    <asp:Label ID="Label13" runat="server" Text="Ver Proyectos" meta:resourcekey="NuevoVerProyResource1">
+                                    </asp:Label></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+                </asp:ContentPlaceHolder>
+                <!-- Site footer -->
+
+            </div>
+        </div>
     </div>
+
+
+
     <footer>
         <p class="pull-left">©TP TFI 2016 Leonardo Galiano</p>
     </footer>

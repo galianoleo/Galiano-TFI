@@ -13,3 +13,8 @@ C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Funciones\bin
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Funciones\obj\Debug\Funciones.csprojResolveAssemblyReference.cache
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Funciones\obj\Debug\Funciones.dll
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Funciones\obj\Debug\Funciones.pdb
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Funciones\bin\Debug\Funciones.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Funciones\bin\Debug\Funciones.pdb
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Funciones\obj\Debug\Funciones.csprojResolveAssemblyReference.cache
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Funciones\obj\Debug\Funciones.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Funciones\obj\Debug\Funciones.pdb
