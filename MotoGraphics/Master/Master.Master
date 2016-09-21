@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="MG.Master.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+       <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>MotoGrafics</title>
+    <%-- <meta name="generator" content="Bootply" />--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/Style.css" rel="stylesheet" />
+    <link href="/Content/signin.css" rel="stylesheet" />
+    <link href="/Content/DatePicker.css" rel="stylesheet" />
+    <link href="/Content/Justified-nav.css" rel="stylesheet" />
+    <!-- script references -->
+    <link rel="icon" href="/Imagenes/favicon.ico" />
+    <script src="/Scripts/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/Scripts.js"></script>
+    <script src="/Scripts/Bootstrap-datepicker.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+
+        <div class="navbar-header">
+
+            <%--<h3 class="text-muted">MotoGrafics</h3>--%>
+            <%--<ul class="nav navbar-nav navbar-right">
+                        <li id="UserName">
+                            <asp:Label ID="lblusername" class="navbar-brand" runat="server"></asp:Label></li>
+                        <li id="log"><a href="../Formularios/LogIn.aspx">Iniciar Sesion</a></li>
+                    </ul>--%>
+        </div>
+        <nav>
+            <ul class="nav nav-justified">
+                <li class="active"><a href="/Formularios/Index.aspx">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Producto</a></li>
+                        <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Producots</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Dropdown header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Ver Articulos</a></li>
+                <li><a href="#">Descargas</a></li>
+                <li><a href="#">Acerca de...</a></li>
+                <li><a href="#">Contactos</a></li>
+
+                <%--<li id="log"><a href="/Formularios/LogIn.aspx">Iniciar Sesion</a></li>--%>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Formularios/LogIn.aspx">Iniciar Sesion</a></li>
+                        <li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+    </nav>
+
+
+    <%--</div>--%>
+    <div class="container">
+        <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- Site footer -->
+
+    </div>
+    <footer>
+        <p class="pull-left">©TP TFI 2016 Leonardo Galiano</p>
+    </footer>
+</body>
+</html>
