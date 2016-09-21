@@ -74,11 +74,13 @@
     <Content Include="Formularios\Articulos\AltaArticulos.aspx" />
     <Content Include="Formularios\Articulos\SaleccionarArticulos.aspx" />
     <Content Include="Formularios\Cliente\RegistrarCliente.aspx" />
+    <Content Include="Formularios\Comprobantes\Factura.aspx" />
     <Content Include="Formularios\Index.aspx" />
     <Content Include="Formularios\Inicio.aspx" />
     <Content Include="Formularios\LogIn.aspx" />
     <Content Include="Imagenes\favicon.ico" />
     <Content Include="Imagenes\h1.png" />
+    <Content Include="Imagenes\logo.jpg" />
     <Content Include="Master\MasterPage.Master" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -132,6 +134,13 @@
     </Compile>
     <Compile Include="Formularios\Cliente\RegistrarCliente.aspx.designer.cs">
       <DependentUpon>RegistrarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Comprobantes\Factura.aspx.cs">
+      <DependentUpon>Factura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Comprobantes\Factura.aspx.designer.cs">
+      <DependentUpon>Factura.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
