@@ -34,12 +34,12 @@
             <div class="container-fluid">
                 <ul class="nav nav-justified">
                     <li class="active"><a href="/Formularios/Inicio.aspx">Home</a></li>
-                    <li><a href="#">Ver que poner</a></li>
+                    <li><a href="/Formularios/Articulos/Catalogo.aspx">Catalogo</a></li>
 
                     <li><a href="#">Ver Articulos</a></li>
                     <li><a href="#">Descargas</a></li>
                     <li><a href="#">Acerca de...</a></li>
-                    <li><a href="#">Contactos</a></li>
+                    <li><a href="/Formularios/Contactenos.aspx">Contactos</a></li>
 
 
                     <li class="dropdown">
