@@ -7,45 +7,36 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MG.Master {
+namespace MG.Formularios {
     
     
-    public partial class Master {
+    public partial class AccesoDenegado {
         
         /// <summary>
-        /// head control.
+        /// label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Label label3;
         
         /// <summary>
-        /// lblusuario control.
+        /// label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblusuario;
+        protected global::System.Web.UI.WebControls.Label label1;
         
         /// <summary>
-        /// lblLogin control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLogin;
-        
-        /// <summary>
-        /// contenidoPrincipal control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder contenidoPrincipal;
+        protected global::System.Web.UI.WebControls.Label Label2;
     }
 }

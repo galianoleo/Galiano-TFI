@@ -72,6 +72,7 @@
     <Content Include="Content\signin.css" />
     <Content Include="Content\Style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Formularios\AccesoDenegado.aspx" />
     <Content Include="Formularios\Articulos\AltaArticulos.aspx" />
     <Content Include="Formularios\Articulos\SaleccionarArticulos.aspx" />
     <Content Include="Formularios\Cliente\RegistrarCliente.aspx" />
@@ -80,6 +81,7 @@
     <Content Include="Formularios\Inicio.aspx" />
     <Content Include="Formularios\LogIn.aspx" />
     <Content Include="Formularios\Test.aspx" />
+    <Content Include="Imagenes\AccesoDenegado.jpg" />
     <Content Include="Imagenes\logoMX.jpg" />
     <Content Include="Imagenes\favicon.ico" />
     <Content Include="Imagenes\h1.png" />
@@ -117,6 +119,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\AccesoDenegado.aspx.cs">
+      <DependentUpon>AccesoDenegado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\AccesoDenegado.aspx.designer.cs">
+      <DependentUpon>AccesoDenegado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Articulos\AltaArticulos.aspx.cs">
       <DependentUpon>AltaArticulos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

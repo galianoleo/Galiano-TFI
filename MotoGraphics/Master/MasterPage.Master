@@ -30,22 +30,9 @@
 
 <body>
 
-    <%--<div class="container">--%>
-
-    <!-- The justified navigation menu is meant for single line per list item.
-           Multiple lines will require custom code not provided by Bootstrap. -->
-
+    <%if (Session["UsuarioActivo"] == null)
+        { Response.Redirect("/Formularios/AccesoDenegado.aspx", false); } %>
     <nav class="navbar navbar-default navbar-fixed-top">
-
-        <div class="navbar-header">
-
-            <%--<h3 class="text-muted">MotoGrafics</h3>--%>
-            <%--<ul class="nav navbar-nav navbar-right">
-                        <li id="UserName">
-                            <asp:Label ID="lblusername" class="navbar-brand" runat="server"></asp:Label></li>
-                        <li id="log"><a href="../Formularios/LogIn.aspx">Iniciar Sesion</a></li>
-                    </ul>--%>
-        </div>
         <nav class="row">
             <ul class="nav nav-justified">
                 <li class="active"><a href="/Formularios/Index.aspx">Home</a></li>
@@ -60,13 +47,10 @@
                         <li><a href="#">One more separated link</a></li>
                     </ul>
                 </li>
-
                 <li><a href="#">Ver Articulos</a></li>
                 <li><a href="#">Descargas</a></li>
                 <li><a href="#">Acerca de...</a></li>
                 <li><a href="#">Contactos</a></li>
-
-                <%--<li id="log"><a href="/Formularios/LogIn.aspx">Iniciar Sesion</a></li>--%>
                 <li class="dropdown">
                     <%string mail;
                         if (Session["UsuarioActivo"] == null)
@@ -86,7 +70,7 @@
                     <ul class="dropdown-menu">
 
                         <li><a href="/Formularios/LogIn.aspx">Cerrar Sesion</a></li>
-                        <%--<li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>--%>
+
                     </ul>
                 </li>
 
@@ -95,41 +79,58 @@
 
     </nav>
 
-
-
     <div class="container-fluid">
         <div class="panel-body col-md-12">
             <div class="col-sm-3 col-md-2 sidebar">
-
-
                 <ul class="nav nav-pills nav-sidebar">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Producto</a></li>
                             <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Producots</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Dropdown header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clientes <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Cliente</a></li>
+                            <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Clientes</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Factura <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Cliente</a></li>
+                            <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Clientes</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Remitos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Cliente</a></li>
+                            <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Clientes</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ordenes de Compra <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Cliente</a></li>
+                            <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Clientes</a></li>
+
                         </ul>
                     </li>
                 </ul>
-
             </div>
-
-
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </div>
-    <%--<div class="container-fluid">
-    </div>
-    <footer>
-        <p class="pull-left">©TP TFI 2016 Leonardo Galiano</p>
-    </footer>--%>
 
 </body>
 
