@@ -68,6 +68,7 @@ namespace MG.Formularios.Articulos
                 combo.DataSource = lcategoria;
                 combo.DataBind();
             }
+            
             //ver como seleccionar el que estaba!!
             //int id = Convert.ToInt32(GridView1.DataKeys[e.NewEditIndex].Value);
             //combo.SelectedValue = Convert.ToString(articuloBE.Seleccionar);

@@ -56,3 +56,5 @@ C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\obj\Debug\Moto
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.pdb
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Seguridad.dll
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Seguridad.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Seguridad.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Seguridad.pdb

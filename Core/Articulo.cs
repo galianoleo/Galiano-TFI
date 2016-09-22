@@ -121,7 +121,7 @@ namespace Core
             sql.Ejecutar("Editar_Articulo @IdArticulo @Descripcion @Importe @IdCategoria", 
                         true, 
                         SqlServer.TipoRetorno.SinResultado, 
-                        articulo.IdCategoria,
+                        articulo.IdArticulo,
                         articulo.Descripcion,
                         articulo.Importe,
                         articulo.IdCategoria);

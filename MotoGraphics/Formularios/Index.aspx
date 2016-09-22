@@ -3,7 +3,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPrincipal" runat="server">
-    <h1>
+    <div class="col-md-6 col-sm-6 text-center">
+        <div class="text-center">
+            <img class="img-responsive img-center" src="/Imagenes/logoMX.jpg" alt="" />
+
+        </div>
+    </div>
+    <%--<h1>
 
 
 
@@ -33,5 +39,5 @@
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
           <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
-      </div>
+      </div>--%>
 </asp:Content>

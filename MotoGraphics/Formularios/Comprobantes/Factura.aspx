@@ -27,7 +27,7 @@
 
             <div class="row pad-top-botm ">
                 <div class="col-lg-6 col-md-6 col-sm-6 ">
-                    <img src="/Imagenes/logo.jpg" style="padding-bottom: 20px;" />
+                    <img src="/Imagenes/logoMX.jpg" style="padding-bottom: 20px;" />
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
 

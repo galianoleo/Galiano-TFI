@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MG.Master.MasterPage" %>
 
+<%@ Import Namespace="Core" %>
+<%@ Import Namespace="System.Web.SessionState" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
@@ -30,7 +32,7 @@
 
     <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar-fixed-top   ">
 
         <div class="navbar-header">
 
@@ -41,7 +43,7 @@
                         <li id="log"><a href="../Formularios/LogIn.aspx">Iniciar Sesion</a></li>
                     </ul>--%>
         </div>
-        <nav>
+        <nav class="row">
             <ul class="nav nav-justified">
                 <li class="active"><a href="/Formularios/Index.aspx">Home</a></li>
                 <li class="dropdown">
@@ -63,10 +65,25 @@
 
                 <%--<li id="log"><a href="/Formularios/LogIn.aspx">Iniciar Sesion</a></li>--%>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a>
+                    <%string mail;
+                      if (Session["UsuarioActivo"] == null)
+                      {
+                    %><a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a><%
+                      }
+                      else
+                      {
+                          mail = Session["UsuarioActivo"].ToString();
+                          lblusuario.Text = mail;
+                              
+                    %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
+                        <b class="caret"></b></a><%
+                          }
+                        %>
+
                     <ul class="dropdown-menu">
-                        <li><a href="/Formularios/LogIn.aspx">Iniciar Sesion</a></li>
-                        <li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>
+
+                        <li><a href="/Formularios/LogIn.aspx">Cerrar Sesion</a></li>
+                        <%--<li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>--%>
                     </ul>
                 </li>
 
@@ -77,12 +94,35 @@
 
 
     <%--</div>--%>
-    <div class="container">
-        <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
-        </asp:ContentPlaceHolder>
-        <!-- Site footer -->
+    <div class="container-fluid">
+        <div class="panel-body col-md-12">
+            <div class="col-sm-3 col-md-2 sidebar">
 
+
+                <ul class="nav nav-pills nav-sidebar">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Producto</a></li>
+                            <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Producots</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Dropdown header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                 
+            </div>
+            <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+            </asp:ContentPlaceHolder>
+           
+        </div>
+        
     </div>
+    <div class="container-fluid">
+           
+        </div>
     <footer>
         <p class="pull-left">©TP TFI 2016 Leonardo Galiano</p>
     </footer>

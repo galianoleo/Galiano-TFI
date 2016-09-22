@@ -15,15 +15,17 @@ namespace MG.Formilarios
         {
             if (!IsPostBack)
             {
-                Sesion s = Sesion.GetInstance();
-                if (s.Mail == null)
-                {
-                    //Response.Redirect("LogIn.aspx", false);
-                }
-                else
-                {
-                    Response.Redirect("Index.aspx", false);
-                }
+                Session.Remove("UsuarioActivo");
+                //Sesion s = Sesion.GetInstance();
+                //if (s.Mail == null)
+                //{
+                //    //Response.Redirect("LogIn.aspx", false);
+                   
+                //}
+                //else
+                //{
+                //    Response.Redirect("Index.aspx", false);
+                //}
             }
             
         }
@@ -39,6 +41,7 @@ namespace MG.Formilarios
                 Sesion s = Sesion.GetInstance();
                 s.Mail = Usuario.Nombre;
                 Sesion.GetInstance();
+                Session.Add("UsuarioActivo", s.Mail);
                 Response.Redirect("Index.aspx", false);
             }
         }

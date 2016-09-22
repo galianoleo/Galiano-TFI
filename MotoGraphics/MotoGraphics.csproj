@@ -78,6 +78,7 @@
     <Content Include="Formularios\Index.aspx" />
     <Content Include="Formularios\Inicio.aspx" />
     <Content Include="Formularios\LogIn.aspx" />
+    <Content Include="Imagenes\logoMX.jpg" />
     <Content Include="Imagenes\favicon.ico" />
     <Content Include="Imagenes\h1.png" />
     <Content Include="Imagenes\logo.jpg" />

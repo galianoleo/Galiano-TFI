@@ -22,6 +22,15 @@ namespace MG.Master {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
         
         /// <summary>
+        /// Control lblusuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblusuario;
+        
+        /// <summary>
         /// Control contenidoPrincipal.
         /// </summary>
         /// <remarks>

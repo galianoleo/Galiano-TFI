@@ -80,6 +80,10 @@
       <Project>{536fd3ea-f19a-4d57-9a91-dd2afed24315}</Project>
       <Name>Funciones</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Seguridad\Seguridad.csproj">
+      <Project>{dc9a8be6-3c81-41dd-b7b9-8a07fc2d7e35}</Project>
+      <Name>Seguridad</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
