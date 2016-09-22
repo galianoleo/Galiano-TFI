@@ -16,6 +16,8 @@
     <link href="/Content/signin.css" rel="stylesheet" />
     <link href="/Content/DatePicker.css" rel="stylesheet" />
     <link href="/Content/Justified-nav.css" rel="stylesheet" />
+    <%--<link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet" />--%>
+    <link href="../Content/dashboard.css" rel="stylesheet" />
     <!-- script references -->
     <link rel="icon" href="/Imagenes/favicon.ico" />
     <script src="/Scripts/jquery-3.1.0.min.js"></script>
@@ -32,7 +34,8 @@
 
     <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
-    <nav class="navbar-fixed-top   ">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
 
         <div class="navbar-header">
 
@@ -66,18 +69,18 @@
                 <%--<li id="log"><a href="/Formularios/LogIn.aspx">Iniciar Sesion</a></li>--%>
                 <li class="dropdown">
                     <%string mail;
-                      if (Session["UsuarioActivo"] == null)
-                      {
+                        if (Session["UsuarioActivo"] == null)
+                        {
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a><%
-                      }
-                      else
-                      {
-                          mail = Session["UsuarioActivo"].ToString();
-                          lblusuario.Text = mail;
-                              
+                                                                                                                     }
+                                                                                                                     else
+                                                                                                                     {
+                                                                                                                         mail = Session["UsuarioActivo"].ToString();
+                                                                                                                         lblusuario.Text = mail;
+
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
                         <b class="caret"></b></a><%
-                          }
+                                                     }
                         %>
 
                     <ul class="dropdown-menu">
@@ -93,7 +96,7 @@
     </nav>
 
 
-    <%--</div>--%>
+
     <div class="container-fluid">
         <div class="panel-body col-md-12">
             <div class="col-sm-3 col-md-2 sidebar">
@@ -112,20 +115,21 @@
                         </ul>
                     </li>
                 </ul>
-                 
+
             </div>
+
+
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
             </asp:ContentPlaceHolder>
-           
         </div>
-        
     </div>
-    <div class="container-fluid">
-           
-        </div>
+    <%--<div class="container-fluid">
+    </div>
     <footer>
         <p class="pull-left">©TP TFI 2016 Leonardo Galiano</p>
-    </footer>
+    </footer>--%>
 
 </body>
 

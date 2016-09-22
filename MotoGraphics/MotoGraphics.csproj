@@ -66,6 +66,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\dashboard.css" />
     <Content Include="Content\DatePicker.css" />
     <Content Include="Content\Justified-nav.css" />
     <Content Include="Content\signin.css" />
@@ -78,21 +79,22 @@
     <Content Include="Formularios\Index.aspx" />
     <Content Include="Formularios\Inicio.aspx" />
     <Content Include="Formularios\LogIn.aspx" />
+    <Content Include="Formularios\Test.aspx" />
     <Content Include="Imagenes\logoMX.jpg" />
     <Content Include="Imagenes\favicon.ico" />
     <Content Include="Imagenes\h1.png" />
     <Content Include="Imagenes\logo.jpg" />
     <Content Include="Master\MasterPage.Master" />
     <Content Include="packages.config" />
+    <Content Include="Master\Master.Master" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Master\Master.Master" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
     <Content Include="Scripts\Bootstrap-datepicker.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -163,6 +165,13 @@
     </Compile>
     <Compile Include="Formularios\LogIn.aspx.designer.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master\Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>
