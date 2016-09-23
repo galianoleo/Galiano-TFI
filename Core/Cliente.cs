@@ -149,11 +149,29 @@ namespace Core
 
         public void CrearClienteInterno(Cliente_EN unCliente)
         {
-            //se crea el usuario para la empresa por defecto
-            //se insertan todos los perfiles seleccionados que POR AHORA solo van a ser UNO
-            foreach (Perfil_EN item in unCliente.Empresa.Perfiles)
+            SqlServer sql = new SqlServer();
+
+            try
+            {
+                //se crea el usuario para la empresa por defecto
+                
+                sql.TransaccionIniciar();
+                ResultadoConsulta result = new ResultadoConsulta();
+                //ejecutarscalar
+                result = sql.Ejecutar("", true, SqlServer.TipoRetorno.Escalar, unCliente.Documento, unCliente.Nombre, unCliente.Apellido, unCliente.Empresa.IdEmpresa, unCliente.Usuario.Nombre);
+                Int32 idcliente;
+                idcliente = Convert.ToInt32(result.ResultadoEscalar);
+                //se insertan todos los perfiles seleccionados que POR AHORA solo van a ser UNO
+                foreach (Perfil_EN item in unCliente.Empresa.Perfiles)
+                {
+                    sql.Ejecutar("", true, SqlServer.TipoRetorno.SinResultado, idcliente, item.IdPerfil);
+                }
+                sql.TransaccionAceptar();
+            }
+            catch (Exception)
             {
 
+                sql.TransaccionCencelar();
             }
         }
     }

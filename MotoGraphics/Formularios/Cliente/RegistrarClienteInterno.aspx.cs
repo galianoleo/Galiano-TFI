@@ -11,7 +11,17 @@ namespace MG.Formularios.Cliente
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                Perfil_BE perfiles = new Perfil_BE();
+                List<Perfil_EN> lperfiles = new List<Perfil_EN>();
+                lperfiles = perfiles.SeleccionarPerfiles();
+                ddlPermisos.DataValueField = "IdPerfil";
+                ddlPermisos.DataTextField = "nombre";
+                ddlPermisos.DataSource = lperfiles;
+                ddlPermisos.DataBind();
 
+            }
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)
