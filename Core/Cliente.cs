@@ -18,6 +18,12 @@ namespace Core
             return map.ClienteSeleccionarDni(Dni);
 
         }
+
+        public void CrearClienteInterno(Cliente_EN unCliente)
+        {
+            Cliente_Mapper map = new Cliente_Mapper();
+            map.CrearClienteInterno(unCliente);
+        }
     }
 
     public class Cliente_EN
@@ -139,6 +145,16 @@ namespace Core
             usuario = Mapper.MapearEntidad<Usuario_EN>(resultado.ResultadoConectado, usuario);
             sql.ConexionFinalizar();
             return usuario;
+        }
+
+        public void CrearClienteInterno(Cliente_EN unCliente)
+        {
+            //se crea el usuario para la empresa por defecto
+            //se insertan todos los perfiles seleccionados que POR AHORA solo van a ser UNO
+            foreach (Perfil_EN item in unCliente.Empresa.Perfiles)
+            {
+
+            }
         }
     }
 
