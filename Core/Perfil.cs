@@ -35,7 +35,7 @@ namespace Core
         {
             sql.ConexionIniciarWindowsAuth();
             ResultadoConsulta result = new ResultadoConsulta();
-            result = sql.Ejecutar("select idperfil, nombre from perfiles", false, SqlServer.TipoRetorno.Tupla);
+            result = sql.Ejecutar("Seleccionar_Perfiles", true, SqlServer.TipoRetorno.Tupla);
             List<Perfil_EN> lPerfiles = new List<Perfil_EN>();
             lPerfiles = Mapper.MapearEntidades<Perfil_EN>(result.ResultadoConectado);
             sql.ConexionFinalizar();

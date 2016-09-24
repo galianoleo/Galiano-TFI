@@ -26,14 +26,20 @@ namespace MG.Formularios.Cliente
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
-            Cliente_BE BeCliente = new Cliente_BE();
-            Cliente_EN oCliente = new Cliente_EN();
-            oCliente.Apellido = "perez";
-            oCliente.Empresa.IdEmpresa = 1;
-            oCliente.Usuario.Nombre = "unusuario";
-            List<Perfil_EN> lPerfiles = new List<Perfil_EN>();
-            oCliente.Empresa.Perfiles = lPerfiles;
-            BeCliente.CrearClienteInterno(oCliente);
+            Empleado_BE be = new Empleado_BE();
+            Empleado_EN oEmpleado = new Empleado_EN();
+            oEmpleado.DNI = Convert.ToInt32(txtDNI.Text);
+            oEmpleado.Nombre = txtNombre.Text;
+            oEmpleado.Apellido = txtApellido.Text;
+            oEmpleado.Usuario.Contrasena = txtcontrasena.Text;
+            oEmpleado.Usuario.Nombre = txtMail.Text;
+            Perfil_EN oPerfil = new Perfil_EN();
+            oPerfil.IdPerfil = Convert.ToInt32(ddlPermisos.SelectedValue);
+            oPerfil.Nombre = ddlPermisos.SelectedItem.ToString();
+            oEmpleado.Empresa.Perfiles.Add(oPerfil);
+            be.InsertarEmpelado(oEmpleado);
+
+
         }
         
     }

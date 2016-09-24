@@ -20,6 +20,12 @@ namespace Core
             Usuario_Mapper map = new Usuario_Mapper();
             return map.SeleccionarUsuarios();
         }
+
+        public int InsertarUsuario(Usuario_EN unUsuario, SqlServer sql)
+        {
+            Usuario_Mapper map = new Usuario_Mapper();
+            return map.InsertarUsuario(unUsuario, sql);
+        }
     }
 
     public class Usuario_EN
@@ -84,6 +90,25 @@ namespace Core
 
             }
             return lusuario;
+        }
+
+        public int InsertarUsuario(Usuario_EN unUsuario, SqlServer sql)
+        {
+            try
+            {
+                ResultadoConsulta resul = new ResultadoConsulta();
+                resul = sql.Ejecutar("Insertar_Usuario @Contrasena @Nombre", 
+                                        true, 
+                                        SqlServer.TipoRetorno.Escalar, 
+                                        unUsuario.Contrasena, 
+                                        unUsuario.Nombre);
+                return Convert.ToInt32(resul.ResultadoEscalar);
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
         }
     }
 

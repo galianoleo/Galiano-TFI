@@ -7,36 +7,27 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace MG.Master {
+namespace MG.Formularios.Cliente {
     
     
-    public partial class MasterPage {
+    public partial class ListarClientesInternos {
         
         /// <summary>
-        /// Control head.
+        /// Control listarClientesInternos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.HtmlControls.HtmlForm listarClientesInternos;
         
         /// <summary>
-        /// Control lblusuario.
+        /// Control gvSeleccionarClientesInternos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblusuario;
-        
-        /// <summary>
-        /// Control contenidoPrincipal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder contenidoPrincipal;
+        protected global::System.Web.UI.WebControls.GridView gvSeleccionarClientesInternos;
     }
 }

@@ -22,7 +22,7 @@ namespace Core
         public void CrearClienteInterno(Cliente_EN unCliente)
         {
             Cliente_Mapper map = new Cliente_Mapper();
-            map.CrearClienteInterno(unCliente);
+            map.InsertarCliente(unCliente);
         }
     }
 
@@ -147,7 +147,7 @@ namespace Core
             return usuario;
         }
 
-        public void CrearClienteInterno(Cliente_EN unCliente)
+        public void InsertarCliente(Cliente_EN unCliente)
         {
             SqlServer sql = new SqlServer();
 

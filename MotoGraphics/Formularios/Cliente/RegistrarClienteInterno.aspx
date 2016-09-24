@@ -41,6 +41,13 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label for="InputEmail">Contraseña</label>
+                            <div class="input-group">
+                                <asp:TextBox ID="txtcontrasena" runat="server" CssClass="form-control" Width="220px" Height="20px"></asp:TextBox>
+                                <%--<input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Confirm Email">--%>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label for="InputMessage">Permisos</label>
                             <div class="input-group">
                                 <asp:DropDownList ID="ddlPermisos" CssClass="btn btn-default dropdown-toggle" runat="server"></asp:DropDownList>
