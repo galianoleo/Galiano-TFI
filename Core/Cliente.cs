@@ -19,11 +19,19 @@ namespace Core
 
         }
 
-        public void CrearClienteInterno(Cliente_EN unCliente)
+        public bool ValidarExistenciaMial(string mail)
         {
             Cliente_Mapper map = new Cliente_Mapper();
-            map.InsertarCliente(unCliente);
+            return map.ValidarExistenciaMail(mail);
         }
+
+        public bool ValidarExistenciaDNI(int dni)
+        {
+            Cliente_Mapper map = new Cliente_Mapper();
+            return map.ValidarExistenciaDNI(dni);
+        }
+
+
     }
 
     public class Cliente_EN
@@ -147,31 +155,40 @@ namespace Core
             return usuario;
         }
 
-        public void InsertarCliente(Cliente_EN unCliente)
+        public bool ValidarExistenciaMail(string mail)
         {
             SqlServer sql = new SqlServer();
+            ResultadoConsulta result = new ResultadoConsulta();
+            sql.ConexionIniciarWindowsAuth();
+            result = sql.Ejecutar("Validar_Existencia_Mail @mail", true, SqlServer.TipoRetorno.Escalar, mail);
 
-            try
+            string validador = Convert.ToString(result.ResultadoEscalar);
+            sql.ConexionFinalizar();
+            if (validador == mail)
             {
-                //se crea el usuario para la empresa por defecto
-                
-                sql.TransaccionIniciar();
-                ResultadoConsulta result = new ResultadoConsulta();
-                //ejecutarscalar
-                result = sql.Ejecutar("", true, SqlServer.TipoRetorno.Escalar, unCliente.Documento, unCliente.Nombre, unCliente.Apellido, unCliente.Empresa.IdEmpresa, unCliente.Usuario.Nombre);
-                Int32 idcliente;
-                idcliente = Convert.ToInt32(result.ResultadoEscalar);
-                //se insertan todos los perfiles seleccionados que POR AHORA solo van a ser UNO
-                foreach (Perfil_EN item in unCliente.Empresa.Perfiles)
-                {
-                    sql.Ejecutar("", true, SqlServer.TipoRetorno.SinResultado, idcliente, item.IdPerfil);
-                }
-                sql.TransaccionAceptar();
+                return true;
             }
-            catch (Exception)
+            else
             {
+                return false;
+            }
 
-                sql.TransaccionCencelar();
+        }
+        public bool ValidarExistenciaDNI(int dni)
+        {
+            SqlServer sql = new SqlServer();
+            ResultadoConsulta result = new ResultadoConsulta();
+            sql.ConexionIniciarWindowsAuth();
+            result = sql.Ejecutar("Validar_Existencia_DNI @DNI", true, SqlServer.TipoRetorno.Escalar, dni);
+            int validador = Convert.ToInt32(result.ResultadoEscalar);
+            sql.ConexionFinalizar();
+            if (validador == dni)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
     }

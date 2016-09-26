@@ -46,9 +46,23 @@
             </legend>
             <p>
                 <label>
+                    DNI *
+                </label>
+                <asp:TextBox ID="txtDNI" runat="server"></asp:TextBox>
+                <%--<input type="text" class="long" />--%>
+            </p>
+            <p>
+                <label>
                     Nombre *
                 </label>
                 <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+                <%--<input type="text" class="long" />--%>
+            </p>
+            <p>
+                <label>
+                    Apellido *
+                </label>
+                <asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
                 <%--<input type="text" class="long" />--%>
             </p>
             <p>
@@ -219,7 +233,8 @@
         </fieldset>--%>
         <fieldset class="row4">
             <div>
-                <asp:Button ID="btnRegistrar" CssClass="buttonLEO" runat="server" Text="Registrar &raquo;" />
+                <asp:Button ID="btnRegistrar" CssClass="buttonLEO" runat="server" Text="Registrar &raquo;" OnClick="btnRegistrar_Click" />
+                <asp:Button ID="btnCancelar" CssClass="buttonLEO" runat="server" Text="Cancelar &raquo;" OnClick="btnCancelar_Click" />
                 <%--<button class="buttonLEO">Registrar &raquo;</button>--%></div>
         </fieldset>
 
