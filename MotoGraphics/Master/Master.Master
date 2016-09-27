@@ -26,61 +26,71 @@
 </head>
 
 <body>
-
-
-    <nav class="navbar navbar-header navbar-fixed-top">
-
-        <nav class="row">
-            <div class="container-fluid">
-                <ul class="nav nav-justified">
-                    <li class="active"><a href="/Formularios/Inicio.aspx">Home</a></li>
-                    <li><a href="/Formularios/Articulos/Catalogo.aspx">Catalogo</a></li>
-
-                    <li><a href="#">Ver Articulos</a></li>
-                    <li><a href="#">Descargas</a></li>
-                    <li><a href="#">Acerca de...</a></li>
-                    <li><a href="/Formularios/Contactenos.aspx">Contactos</a></li>
-
-
-                    <li class="dropdown">
-                        <%string mail;
-                            if (Session["UsuarioActivo"] == null)
-                            {
-                                lblLogin.Text = "Iniciar Sesion";
-                        %><a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a><%
-                                                                                                                         }
-                                                                                                                         else
-                                                                                                                         {
-                                                                                                                             mail = Session["UsuarioActivo"].ToString();
-                                                                                                                             lblusuario.Text = mail;
-                                                                                                                             lblLogin.Text = "Cerrar Sesion";
-
-                        %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
-                            <b class="caret"></b></a><%
-                                                         }
-                            %>
-
-                        <ul class="dropdown-menu">
-
-                            <li><a href="/Formularios/LogIn.aspx">
-                                <asp:Label ID="lblLogin" runat="server" Text=""></asp:Label></a></li>
-                            <li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-    </nav>
-
     <div class="container-fluid">
-        <div class="col-sm-8 col-sm-offset-2 col-md-9 col-md-offset-1 main">
-            <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
-            </asp:ContentPlaceHolder>
-            <!-- Site footer -->
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-header navbar-fixed-top">
 
+                    <nav class="row">
+                        <div class="container-fluid">
+                            <ul class="nav nav-justified">
+                                <li class="active"><a href="/Formularios/Inicio.aspx">Home</a></li>
+                                <li><a href="/Formularios/Historia.aspx">Historia</a></li>
+                                <li><a href="/Formularios/Clientes.aspx">Clientes</a></li>
+                                <li><a href="/Formularios/Articulos/Catalogo.aspx">Catalogo</a></li>
+                                <li><a href="/Formularios/Contactenos.aspx">Contactos</a></li>
+
+
+                                <li class="dropdown">
+                                    <%string mail;
+                                      if (Session["UsuarioActivo"] == null)
+                                      {
+                                          lblLogin.Text = "Iniciar Sesion";
+                                    %><a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a><%
+                                      }
+                                      else
+                                      {
+                                          mail = Session["UsuarioActivo"].ToString();
+                                          lblusuario.Text = mail;
+                                          lblLogin.Text = "Cerrar Sesion";
+
+                                    %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
+                                        <b class="caret"></b></a><%
+                                  }
+                                        %>
+
+                                    <ul class="dropdown-menu">
+
+                                        <li><a href="/Formularios/LogIn.aspx">
+                                            <asp:Label ID="lblLogin" runat="server" Text=""></asp:Label></a></li>
+                                        <li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </nav>
+
+                <div class="jumbotron">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-10">
+                                <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                            <div class="col-md-1">
+                            </div>
+                        </div>
+
+                        <!-- Site footer -->
+
+
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
 </body>
 </html>

@@ -77,11 +77,13 @@
     <Content Include="Formularios\Articulos\AltaArticulos.aspx" />
     <Content Include="Formularios\Articulos\Catalogo.aspx" />
     <Content Include="Formularios\Articulos\SaleccionarArticulos.aspx" />
+    <Content Include="Formularios\Clientes.aspx" />
     <Content Include="Formularios\Cliente\ListarClientesInternos.aspx" />
     <Content Include="Formularios\Cliente\RegistrarCliente.aspx" />
     <Content Include="Formularios\Cliente\RegistrarClienteInterno.aspx" />
     <Content Include="Formularios\Comprobantes\Factura.aspx" />
     <Content Include="Formularios\Contactenos.aspx" />
+    <Content Include="Formularios\Historia.aspx" />
     <Content Include="Formularios\Index.aspx" />
     <Content Include="Formularios\Inicio.aspx" />
     <Content Include="Formularios\LogIn.aspx" />
@@ -160,6 +162,13 @@
     <Compile Include="Formularios\Articulos\SaleccionarArticulos.aspx.designer.cs">
       <DependentUpon>SaleccionarArticulos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Clientes.aspx.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clientes.aspx.designer.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Cliente\ListarClientesInternos.aspx.cs">
       <DependentUpon>ListarClientesInternos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -194,6 +203,13 @@
     </Compile>
     <Compile Include="Formularios\Contactenos.aspx.designer.cs">
       <DependentUpon>Contactenos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Historia.aspx.cs">
+      <DependentUpon>Historia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Historia.aspx.designer.cs">
+      <DependentUpon>Historia.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
