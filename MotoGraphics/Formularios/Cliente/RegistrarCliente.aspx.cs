@@ -5,13 +5,36 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Core;
+using System.Web.Services;
 
 namespace MG.Formularios.Cliente
 {
     public partial class RegistrarCliente : System.Web.UI.Page
     {
+        
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+            ListItem lis = new ListItem();
+            lis.Value = Convert.ToString(1);
+            lis.Text = "Argentina";
+            
+            lPais.Items.Add(lis);
+        }
+
+        
+        [WebMethod]
+        public static void test()
+        {
+            
+        }
+
+        [WebMethod]
+        public static void btnRegistrarCliente(string mail, int dni)
+        {
+            Cliente_BE be = new Cliente_BE();
+           
+            bool validador = be.ValidarExistenciaMial(mail);
 
         }
 

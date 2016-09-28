@@ -103,6 +103,15 @@ namespace MG.Formularios.Cliente {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtCiuda;
         
         /// <summary>
+        /// lPais control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect lPais;
+        
+        /// <summary>
         /// txtWeb control.
         /// </summary>
         /// <remarks>

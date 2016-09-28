@@ -1,6 +1,40 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/Master.Master" AutoEventWireup="true" CodeBehind="RegistrarCliente.aspx.cs" Inherits="MG.Formularios.Cliente.RegistrarCliente" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script type="text/javascript">
+        function DeleteKartItems() {
+            $.ajax({
+                type: "POST",
+                url: 'RegistrarCliente.aspx/test',
+                data: "",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (msg) {
+                    alert("anda");
+                },
+                error: function (e) {
+                    alert("error" + e.toString());
+                }
+            });
+        }
+        function AceptarCliente() {
+            var mail = $("#contenidoPrincipal_txtEmail").val();
+            var dni = $("#contenidoPrincipal_txtDNI1").val();
+            $.ajax({
+                type: "POST",
+                url: 'RegistrarCliente.aspx/btnRegistrarCliente',
+                data: "{mail: '" + mail + "', dni: '" + dni + "'}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (msg) {
+                    alert("anda");
+                },
+                error: function (e) {
+                    alert("error" + e.toString());
+                }
+            });
+        }
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPrincipal" runat="server">
 
@@ -96,7 +130,7 @@
                     </label>
                 </div>
                 <div class="col-md-3">
-                    <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control"></asp:TextBox>
                 </div>
                 <div class="col-md-3">
                     <label>
@@ -136,7 +170,7 @@
                     </label>
                 </div>
                 <div class="col-md-3">
-                    <input id="txtDNI1" runat="server" />
+                    <input id="txtDNI1" runat="server" class="form-control" />
                 </div>
                 <div class="col-md-3">
                     <label>
@@ -144,7 +178,7 @@
                     </label>
                 </div>
                 <div class="col-md-3">
-                    <input id="txtNombre1" runat="server" />
+                    <input id="txtNombre1" runat="server" class="form-control"/>
                 </div>
             </div>
             <div class="row">
@@ -154,7 +188,7 @@
                     </label>
                 </div>
                 <div class="col-md-3">
-                    <input id="txtApe" runat="server" />
+                    <input id="txtApe" runat="server" class="form-control"/>
                 </div>
                 <div class="col-md-3">
                     <label>
@@ -162,7 +196,7 @@
                     </label>
                 </div>
                 <div class="col-md-3">
-                    <input id="txtTel" runat="server" />
+                    <input id="txtTel" runat="server" class="form-control" />
                 </div>
             </div>
             <div class="row">
@@ -188,26 +222,13 @@
                     </label>
                 </div>
                 <div class="col-md-3">
-                    <div class="btn-group">
-                        <button class="btn btn-default">
-                            Action
-                        </button>
-                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#">Action</a>
-                            </li>
-                            <li class="disabled">
-                                <a href="#">Another action</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <a href="#">Something else here</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <select class="form-control" id="lPais" runat="server">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
                 </div>
                 <div class="col-md-3">
                     <label>
@@ -224,13 +245,13 @@
             <div class="row">
                 <div class="col-md-6">
 
-                    <button type="button" class="btn btn-default">
+                    <button type="button" class="btn btn-default" onclick="AceptarCliente()">
                         Registrar
                     </button>
                 </div>
                 <div class="col-md-6">
 
-                    <button type="button" class="btn btn-default">
+                    <button type="button" class="btn btn-default" onclick="DeleteKartItems()">
                         Cancelar
                     </button>
                 </div>
