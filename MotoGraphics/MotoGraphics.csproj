@@ -70,6 +70,7 @@
     <Content Include="Content\DatePicker.css" />
     <Content Include="Content\EstiloCatalogo.css" />
     <Content Include="Content\Justified-nav.css" />
+    <Content Include="Content\RegistrarCliente.css" />
     <Content Include="Content\signin.css" />
     <Content Include="Content\Style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

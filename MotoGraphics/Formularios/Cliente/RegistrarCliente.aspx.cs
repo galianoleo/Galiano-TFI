@@ -15,31 +15,31 @@ namespace MG.Formularios.Cliente
 
         }
 
-        protected void btnRegistrar_Click(object sender, EventArgs e)
-        {
-            Cliente_BE be = new Cliente_BE();
-            bool validador = be.ValidarExistenciaMial(txtEmail.Text);
-            if (validador)
-            {
-                //equiste mail
-            }
-            else
-            {
-                validador = be.ValidarExistenciaDNI(Convert.ToInt32(txtDNI.Text));
-                if (validador)
-                {
-                    //existe el dni
-                }
-                else
-                {
-                    //no existe mail, entonces registro cliente
-                }
-            }
-        }
+        //protected void btnRegistrar_Click(object sender, EventArgs e)
+        //{
+        //    Cliente_BE be = new Cliente_BE();
+        //    bool validador = be.ValidarExistenciaMial(txtEmail.Text);
+        //    if (validador)
+        //    {
+        //        //equiste mail
+        //    }
+        //    else
+        //    {
+        //        validador = be.ValidarExistenciaDNI(Convert.ToInt32(txtDNI.Text));
+        //        if (validador)
+        //        {
+        //            //existe el dni
+        //        }
+        //        else
+        //        {
+        //            //no existe mail, entonces registro cliente
+        //        }
+        //    }
+        //}
 
-        protected void btnCancelar_Click(object sender, EventArgs e)
-        {
+        //protected void btnCancelar_Click(object sender, EventArgs e)
+        //{
 
-        }
+        //}
     }
 }
