@@ -11,30 +11,49 @@ namespace MG.Formularios.Cliente
 {
     public partial class RegistrarCliente : System.Web.UI.Page
     {
-        
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-            ListItem lis = new ListItem();
-            lis.Value = Convert.ToString(1);
-            lis.Text = "Argentina";
-            
-            lPais.Items.Add(lis);
+            if (!IsPostBack)
+            {
+                Pais_BE be = new Pais_BE();
+                List<Pais_EN> lPais = new List<Pais_EN>();
+                lPais = be.SeleccionarPaises();
+                ListItem lItem;
+                foreach (Pais_EN Pais in lPais)
+                {
+                    lItem = new ListItem();
+                    lItem.Value = Pais.IdPais.ToString();
+                    lItem.Text = Pais.Descripcion;
+                    sPais.Items.Add(lItem);
+                }
+
+            }
         }
 
-        
+
         [WebMethod]
         public static void test()
         {
-            
+
         }
 
         [WebMethod]
         public static void btnRegistrarCliente(string mail, int dni)
         {
             Cliente_BE be = new Cliente_BE();
-           
+
             bool validador = be.ValidarExistenciaMial(mail);
+
+        }
+
+        protected void btnAceptar_ServerClick(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnCancelar_ServerClick(object sender, EventArgs e)
+        {
 
         }
 

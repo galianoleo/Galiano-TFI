@@ -34,18 +34,6 @@ C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\b
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\obj\Debug\Consola.exe
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\Consola\obj\Debug\Consola.pdb
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Consola.exe.config
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Consola.exe
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Consola.pdb
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Core.dll
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\DAL.dll
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Funciones.dll
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Core.pdb
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\DAL.pdb
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Funciones.pdb
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\obj\Debug\Consola.exe
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\obj\Debug\Consola.pdb
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Consola\bin\Debug\Consola.exe.config
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Consola\bin\Debug\Consola.exe
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Consola\bin\Debug\Consola.pdb
@@ -58,3 +46,15 @@ C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Consola\bin\Debug\Funciones
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Consola\obj\Debug\Consola.exe
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\Consola\obj\Debug\Consola.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Consola.exe.config
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Consola.exe
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Consola.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Core.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\DAL.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Funciones.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Core.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\DAL.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\bin\Debug\Funciones.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\obj\Debug\Consola.exe
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\Consola\obj\Debug\Consola.pdb

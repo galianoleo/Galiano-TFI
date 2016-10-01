@@ -31,7 +31,7 @@
 <body>
 
     <%if (Session["UsuarioActivo"] == null)
-        { Response.Redirect("/Formularios/AccesoDenegado.aspx", false); } %>
+      { Response.Redirect("/Formularios/AccesoDenegado.aspx", false); } %>
     <nav class="navbar navbar-default navbar-fixed-top">
         <nav class="row">
             <ul class="nav nav-justified">
@@ -53,18 +53,18 @@
                 <li><a href="#">Contactos</a></li>
                 <li class="dropdown">
                     <%string mail;
-                        if (Session["UsuarioActivo"] == null)
-                        {
+                      if (Session["UsuarioActivo"] == null)
+                      {
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a><%
-                                                                                                                     }
-                                                                                                                     else
-                                                                                                                     {
-                                                                                                                         mail = Session["UsuarioActivo"].ToString();
-                                                                                                                         lblusuario.Text = mail;
+                        }
+                        else
+                        {
+                            mail = Session["UsuarioActivo"].ToString();
+                            lblusuario.Text = mail;
 
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
                         <b class="caret"></b></a><%
-                                                     }
+                                                                                                                     }
                         %>
 
                     <ul class="dropdown-menu">
@@ -126,9 +126,27 @@
                 </ul>
             </div>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <%--<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
             </asp:ContentPlaceHolder>
+        </div>--%>
+        <div class="jumbotron">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-10">
+                        <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                </div>
+
+                <!-- Site footer -->
+
+
+            </div>
         </div>
     </div>
 

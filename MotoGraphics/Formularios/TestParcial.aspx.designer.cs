@@ -7,135 +7,117 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace MG.Formularios.Cliente {
+namespace MG.Formularios {
     
     
-    public partial class RegistrarCliente {
+    public partial class TestParcial {
         
         /// <summary>
-        /// Control txtEmail.
+        /// Control form1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control txtPassword.
+        /// Control lblMail.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblMail;
         
         /// <summary>
-        /// Control txtRepetirEmail.
+        /// Control txtmail.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtRepetirEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtmail;
         
         /// <summary>
-        /// Control TextBox1.
+        /// Control passw.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword passw;
         
         /// <summary>
-        /// Control txtNombre1.
+        /// Control exampleInputFile.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtNombre1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputFile exampleInputFile;
         
         /// <summary>
-        /// Control txtDNI.
+        /// Control chk.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtDNI;
+        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox chk;
         
         /// <summary>
-        /// Control txtDire.
+        /// Control btn.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtDire;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btn;
         
         /// <summary>
-        /// Control sPais.
+        /// Control optionsRadios1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect sPais;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton optionsRadios1;
         
         /// <summary>
-        /// Control txtApellido.
+        /// Control optionsRadios2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtApellido;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton optionsRadios2;
         
         /// <summary>
-        /// Control txtTel.
+        /// Control optionsRadios3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtTel;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton optionsRadios3;
         
         /// <summary>
-        /// Control txtCiuda.
+        /// Control sel.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtCiuda;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect sel;
         
         /// <summary>
-        /// Control txtWeb.
+        /// Control selmulti.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtWeb;
-        
-        /// <summary>
-        /// Control btnAceptar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnAceptar;
-        
-        /// <summary>
-        /// Control btnCancelar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnCancelar;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect selmulti;
     }
 }

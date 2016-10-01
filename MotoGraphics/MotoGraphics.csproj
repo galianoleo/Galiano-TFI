@@ -89,9 +89,9 @@
     <Content Include="Formularios\Inicio.aspx" />
     <Content Include="Formularios\LogIn.aspx" />
     <Content Include="Formularios\Test.aspx" />
+    <Content Include="Formularios\TestParcial.aspx" />
     <Content Include="Imagenes\AccesoDenegado.jpg" />
     <Content Include="Imagenes\logoMX.jpg" />
-    <Content Include="Imagenes\favicon.ico" />
     <Content Include="Imagenes\h1.png" />
     <Content Include="Imagenes\logo.jpg" />
     <Content Include="Imagenes\Provisorias\moto1.jpg" />
@@ -239,6 +239,13 @@
     </Compile>
     <Compile Include="Formularios\Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\TestParcial.aspx.cs">
+      <DependentUpon>TestParcial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\TestParcial.aspx.designer.cs">
+      <DependentUpon>TestParcial.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master\Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>
