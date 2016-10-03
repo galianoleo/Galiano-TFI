@@ -79,6 +79,8 @@
     <Content Include="Formularios\Articulos\Catalogo.aspx" />
     <Content Include="Formularios\Articulos\SaleccionarArticulos.aspx" />
     <Content Include="Formularios\Clientes.aspx" />
+    <Content Include="Formularios\Cliente\AdministrarCliente.aspx" />
+    <Content Include="Formularios\Cliente\AdministrarClienteInterno.aspx" />
     <Content Include="Formularios\Cliente\ListarClientesInternos.aspx" />
     <Content Include="Formularios\Cliente\RegistrarCliente.aspx" />
     <Content Include="Formularios\Cliente\RegistrarClienteInterno.aspx" />
@@ -169,6 +171,20 @@
     </Compile>
     <Compile Include="Formularios\Clientes.aspx.designer.cs">
       <DependentUpon>Clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Cliente\AdministrarCliente.aspx.cs">
+      <DependentUpon>AdministrarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cliente\AdministrarCliente.aspx.designer.cs">
+      <DependentUpon>AdministrarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Cliente\AdministrarClienteInterno.aspx.cs">
+      <DependentUpon>AdministrarClienteInterno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cliente\AdministrarClienteInterno.aspx.designer.cs">
+      <DependentUpon>AdministrarClienteInterno.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Cliente\ListarClientesInternos.aspx.cs">
       <DependentUpon>ListarClientesInternos.aspx</DependentUpon>

@@ -3,10 +3,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPrincipal" runat="server">
-    <div class="col-md-6 col-sm-6 text-center">
-        <div class="text-center">
-            <img class="img-responsive img-center" src="/Imagenes/logoMX.jpg" alt="" />
+    <div class="container">
+        <div class="col-md-2"></div>
+        <div class=" col-md-10">
+            <div class="text-right">
+                <img class="img-responsive img-center" src="/Imagenes/logoMX.jpg" alt="" />
 
+            </div>
         </div>
     </div>
     <%--<h1>

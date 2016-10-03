@@ -64,6 +64,7 @@
                                         <li><a href="/Formularios/LogIn.aspx">
                                             <asp:Label ID="lblLogin" runat="server" Text=""></asp:Label></a></li>
                                         <li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>
+                                        <li><a href="/Formularios/Cliente/AdministrarCliente.aspx">Administrar Cliente</a></li>
                                     </ul>
                                 </li>
 
