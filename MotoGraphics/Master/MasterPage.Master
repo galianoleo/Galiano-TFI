@@ -19,7 +19,7 @@
     <%--<link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet" />--%>
     <link href="../Content/dashboard.css" rel="stylesheet" />
     <!-- script references -->
-    
+    <link rel="icon" href="/Imagenes/favicon.ico" />
     <script src="/Scripts/jquery-3.1.0.min.js"></script>
     <script src="/Scripts/bootstrap.min.js"></script>
     <script src="/Scripts/Scripts.js"></script>
@@ -31,7 +31,7 @@
 <body>
 
     <%if (Session["UsuarioActivo"] == null)
-        { Response.Redirect("/Formularios/AccesoDenegado.aspx", false); } %>
+      { Response.Redirect("/Formularios/AccesoDenegado.aspx", false); } %>
     <nav class="navbar navbar-default navbar-fixed-top">
         <nav class="row">
             <ul class="nav nav-justified">
@@ -53,18 +53,18 @@
                 <li><a href="#">Contactos</a></li>
                 <li class="dropdown">
                     <%string mail;
-                        if (Session["UsuarioActivo"] == null)
-                        {
+                      if (Session["UsuarioActivo"] == null)
+                      {
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a><%
-                                                                                                                     }
-                                                                                                                     else
-                                                                                                                     {
-                                                                                                                         mail = Session["UsuarioActivo"].ToString();
-                                                                                                                         lblusuario.Text = mail;
+                        }
+                        else
+                        {
+                            mail = Session["UsuarioActivo"].ToString();
+                            lblusuario.Text = mail;
 
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
                         <b class="caret"></b></a><%
-                                                     }
+                                                                                                                     }
                         %>
 
                     <ul class="dropdown-menu">
@@ -95,47 +95,31 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clientes <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="/Formularios/Cliente/RegistrarClienteInterno.aspx">Crear Cliente</a></li>
-                            <li><a href="/Formularios/Cliente/AdministrarClienteInterno.aspx">Administrar Clientes</a></li>
+                            <li><a href="/Formularios/Cliente/ListarClientesInternos.aspx">Listar Clientes</a></li>
 
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Factura <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Crear Factura</a></li>
-                            <li><a href="#">Listar Clientes</a></li>
+                            <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Cliente</a></li>
+                            <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Clientes</a></li>
 
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Remitos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Crear Remito</a></li>
-                            <li><a href="#">Listar Remitos</a></li>
+                            <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Cliente</a></li>
+                            <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Clientes</a></li>
 
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ordenes de Compra <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Crear OP</a></li>
-                            <li><a href="#">Listar OP</a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contenido<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Administrar Contenido</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reportes<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Reporte 1</a></li>
-                            <li><a href="#">Reporte 2</a></li>
-                            <li><a href="#">Reporte 3</a></li>
-                            <li><a href="#">Reporte 4</a></li>
+                            <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Cliente</a></li>
+                            <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Clientes</a></li>
 
                         </ul>
                     </li>
@@ -149,14 +133,14 @@
         <div class="jumbotron">
             <div class="col-md-12">
                 <div class="row">
-                    <%--<div class="col-md-2">
-                    </div>--%>
-                    <div class="col-md-12">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-10">
                         <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
                         </asp:ContentPlaceHolder>
                     </div>
-                    <%--<div class="col-md-1">
-                    </div>--%>
+                    <div class="col-md-1">
+                    </div>
                 </div>
 
                 <!-- Site footer -->
