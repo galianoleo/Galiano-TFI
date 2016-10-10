@@ -26,7 +26,6 @@ C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraph
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.csprojResolveAssemblyReference.cache
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.dll
 C:\Users\L3ogaliano\Documents\Visual Studio 2013\Projects\MotoGraphics\MotoGraphics\obj\Debug\MotoGraphics.pdb
-C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Core.dll
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\MotoGraphics.dll.config
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\MotoGraphics.dll
 C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\MotoGraphics.pdb
@@ -46,6 +45,7 @@ C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Seguridad.
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\MotoGraphics.dll.config
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\MotoGraphics.dll
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\MotoGraphics.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Core.dll
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Newtonsoft.Json.dll
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Seguridad.dll
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\DAL.dll
@@ -58,3 +58,15 @@ C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\obj\Debug\MotoGraphics.csprojResolveAssemblyReference.cache
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\obj\Debug\MotoGraphics.dll
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\obj\Debug\MotoGraphics.pdb
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.Security.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Owin.dll
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.xml
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.Security.xml

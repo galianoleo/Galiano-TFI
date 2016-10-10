@@ -56,15 +56,15 @@
                       if (Session["UsuarioActivo"] == null)
                       {
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a><%
-                        }
-                        else
-                        {
-                            mail = Session["UsuarioActivo"].ToString();
-                            lblusuario.Text = mail;
+                      }
+                      else
+                      {
+                          mail = Session["UsuarioActivo"].ToString();
+                          lblusuario.Text = mail;
 
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
                         <b class="caret"></b></a><%
-                                                                                                                     }
+                        }
                         %>
 
                     <ul class="dropdown-menu">
@@ -121,6 +121,21 @@
                             <li><a href="/Formularios/Articulos/AltaArticulos.aspx">Crear Cliente</a></li>
                             <li><a href="/Formularios/Articulos/SaleccionarArticulos.aspx   ">Listar Clientes</a></li>
 
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contenidos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Ver Contenidos</a></li>
+                            <li><a href="#">Editar Contenidos</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reportes<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Listar Reportes</a></li>
+                            
                         </ul>
                     </li>
                 </ul>

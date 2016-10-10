@@ -12,6 +12,7 @@ namespace Seguridad
         public string Mail { get; set; }
 
         public int Idioma { get; set; }
+        public string Perfil { get; set; }
       
 
         private Sesion()

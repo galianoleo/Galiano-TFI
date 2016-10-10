@@ -16,7 +16,7 @@
     <link href="/Content/DatePicker.css" rel="stylesheet" />
     <link href="/Content/Justified-nav.css" rel="stylesheet" />
     <!-- script references -->
-   
+
     <script src="/Scripts/jquery-3.1.0.min.js"></script>
     <script src="/Scripts/bootstrap.min.js"></script>
     <script src="/Scripts/Scripts.js"></script>
@@ -43,27 +43,36 @@
 
                                 <li class="dropdown">
                                     <%string mail;
-                                        if (Session["UsuarioActivo"] == null)
-                                        {
-                                            lblLogin.Text = "Iniciar Sesion";
+                                      if (Session["UsuarioActivo"] == null)
+                                      {
+                                          lblLogin.Text = "Iniciar Sesion";
+                                          lblPerfil.Text = "Registrarse";
+                                          aChat.Visible = false;
+                                          aChat.Disabled = false;
                                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario<b class="caret"></b></a><%
-                                                }
-                                                else
-                                                {
-                                                    mail = Session["UsuarioActivo"].ToString();
-                                                    lblusuario.Text = mail;
-                                                    lblLogin.Text = "Cerrar Sesion";
+                                        }
+                                        else
+                                        {
+                                            mail = Session["UsuarioActivo"].ToString();
+                                            lblusuario.Text = mail;
+                                            lblLogin.Text = "Cerrar Sesion";
+                                            lblPerfil.Text = "Mi Perfil";
+                                            aChat.Visible = true;
+                                            aChat.Disabled = true;
 
                                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
                                         <b class="caret"></b></a><%
-                                                                     }
+                                                }
                                         %>
 
                                     <ul class="dropdown-menu">
 
                                         <li><a href="/Formularios/LogIn.aspx">
                                             <asp:Label ID="lblLogin" runat="server" Text=""></asp:Label></a></li>
-                                        <li><a href="/Formularios/Cliente/RegistrarCliente.aspx">Regtistrarse</a></li>
+                                        <li><a href="/Formularios/Cliente/RegistrarCliente.aspx">
+                                            <asp:Label ID="lblPerfil" runat="server"></asp:Label></a></li>
+                                        <li><a id="aChat" runat="server" href="/Formularios/Chat/Chat.aspx">
+                                            <asp:Label ID="lblChat" runat="server" Text="Chat" ></asp:Label></a></li>
                                     </ul>
                                 </li>
 

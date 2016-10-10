@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Core;
 using System.Web.Services;
-
+using Seguridad;
 namespace MG.Formularios.Cliente
 {
     public partial class RegistrarCliente : System.Web.UI.Page
@@ -16,18 +16,25 @@ namespace MG.Formularios.Cliente
         {
             if (!IsPostBack)
             {
-                Pais_BE be = new Pais_BE();
-                List<Pais_EN> lPais = new List<Pais_EN>();
-                lPais = be.SeleccionarPaises();
-                ListItem lItem;
-                foreach (Pais_EN Pais in lPais)
+                Sesion s = Sesion.GetInstance();
+                if (s.Mail == null)
                 {
-                    lItem = new ListItem();
-                    lItem.Value = Pais.IdPais.ToString();
-                    lItem.Text = Pais.Descripcion;
-                    sPais.Items.Add(lItem);
+                    Pais_BE be = new Pais_BE();
+                    List<Pais_EN> lPais = new List<Pais_EN>();
+                    lPais = be.SeleccionarPaises();
+                    ListItem lItem;
+                    foreach (Pais_EN Pais in lPais)
+                    {
+                        lItem = new ListItem();
+                        lItem.Value = Pais.IdPais.ToString();
+                        lItem.Text = Pais.Descripcion;
+                        sPais.Items.Add(lItem);
+                    }
                 }
-
+                else
+                {
+                    Response.Redirect("PerfilCliente.aspx", false);
+                }
             }
         }
 

@@ -40,9 +40,19 @@ namespace MG.Formilarios
             { 
                 Sesion s = Sesion.GetInstance();
                 s.Mail = Usuario.Nombre;
+                s.Perfil = Usuario.Perfil;
                 Sesion.GetInstance();
                 Session.Add("UsuarioActivo", s.Mail);
-                Response.Redirect("Index.aspx", false);
+                Session.Add("UsuarioPerfil", s.Perfil);
+                if (Usuario.Perfil == "Cliente")
+                {
+                    Response.Redirect("Inicio.aspx", false);
+
+                }
+                else
+                {
+                    Response.Redirect("Index.aspx", false);
+                }
             }
         }
     }

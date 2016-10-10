@@ -18,17 +18,16 @@
             <div class="thumbnail">
                 <img class="group list-group-image" src="/Imagenes/Provisorias/moto2.jpg" alt="" />
                 <div class="caption">
-                    <h4 class="group inner list-group-item-heading">Product title</h4>
+                    <h4 class="group inner list-group-item-heading">Metal Mulisha</h4>
                     <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        Vinilo 3M importado de alta calidad, con la minado de 300 micrones para mayor durabildad. Diseño Metal Mulisha
                     </p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                            <a class="btn btn-success" href="#">Comprar</a>
                         </div>
 
                     </div>
@@ -39,17 +38,16 @@
             <div class="thumbnail">
                 <img class="group list-group-image" src="/Imagenes/Provisorias/moto2.jpg" alt="" />
                 <div class="caption">
-                    <h4 class="group inner list-group-item-heading">Product title</h4>
+                    <h4 class="group inner list-group-item-heading">Metal Mulisha</h4>
                     <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        Vinilo 3M importado de alta calidad, con la minado de 300 micrones para mayor durabildad. Diseño Metal Mulisha
                     </p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                            <a class="btn btn-success" href="#">Comprar</a>
                         </div>
 
                     </div>
@@ -60,17 +58,16 @@
             <div class="thumbnail">
                 <img class="group list-group-image" src="/Imagenes/Provisorias/moto2.jpg" alt="" />
                 <div class="caption">
-                    <h4 class="group inner list-group-item-heading">Product title</h4>
+                    <h4 class="group inner list-group-item-heading">Metal Mulisha</h4>
                     <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        Vinilo 3M importado de alta calidad, con la minado de 300 micrones para mayor durabildad. Diseño Metal Mulisha                   
                     </p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                            <a class="btn btn-success" href="#">Comprar</a>
                         </div>
 
                     </div>
@@ -81,17 +78,16 @@
             <div class="thumbnail">
                 <img class="group list-group-image" src="/Imagenes/Provisorias/moto2.jpg" alt="" />
                 <div class="caption">
-                    <h4 class="group inner list-group-item-heading">Product title</h4>
+                    <h4 class="group inner list-group-item-heading">Metal Mulisha</h4>
                     <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        Vinilo 3M importado de alta calidad, con la minado de 300 micrones para mayor durabildad. Diseño Metal Mulisha                   
                     </p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                            <a class="btn btn-success" href="#">Comprar</a>
                         </div>
 
                     </div>
@@ -102,17 +98,16 @@
             <div class="thumbnail">
                 <img class="group list-group-image" src="/Imagenes/Provisorias/moto2.jpg" alt="" />
                 <div class="caption">
-                    <h4 class="group inner list-group-item-heading">Product title</h4>
+                    <h4 class="group inner list-group-item-heading">Metal Mulisha</h4>
                     <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        Vinilo 3M importado de alta calidad, con la minado de 300 micrones para mayor durabildad. Diseño Metal Mulisha                   
                     </p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                            <a class="btn btn-success" href="#">Comprar</a>
                         </div>
 
                     </div>
@@ -123,17 +118,16 @@
             <div class="thumbnail">
                 <img class="group list-group-image" src="/Imagenes/Provisorias/moto2.jpg" alt="" />
                 <div class="caption">
-                    <h4 class="group inner list-group-item-heading">Product title</h4>
+                    <h4 class="group inner list-group-item-heading">Metal Mulisha</h4>
                     <p class="group inner list-group-item-text">
-                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        Vinilo 3M importado de alta calidad, con la minado de 300 micrones para mayor durabildad. Diseño Metal Mulisha                   
                     </p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                            <a class="btn btn-success" href="#">Comprar</a>
                         </div>
 
                     </div>
