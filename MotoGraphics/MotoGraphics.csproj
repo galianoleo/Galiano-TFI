@@ -103,12 +103,15 @@
     <Content Include="Content\Style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Formularios\AccesoDenegado.aspx" />
+    <Content Include="Formularios\Administracion\AdminContenido.aspx" />
     <Content Include="Formularios\Articulos\AltaArticulos.aspx" />
     <Content Include="Formularios\Articulos\Catalogo.aspx" />
     <Content Include="Formularios\Articulos\SaleccionarArticulos.aspx" />
     <Content Include="Formularios\Chat\Chat.aspx" />
     <Content Include="Formularios\Clientes.aspx" />
+    <Content Include="Formularios\Cliente\HistorialComprasCliente.aspx" />
     <Content Include="Formularios\Cliente\ListarClientesInternos.aspx" />
+    <Content Include="Formularios\Cliente\MovimientosCliente.aspx" />
     <Content Include="Formularios\Cliente\PerfilCliente.aspx" />
     <Content Include="Formularios\Cliente\RegistrarCliente.aspx" />
     <Content Include="Formularios\Cliente\RegistrarClienteInterno.aspx" />
@@ -118,6 +121,7 @@
     <Content Include="Formularios\Index.aspx" />
     <Content Include="Formularios\Inicio.aspx" />
     <Content Include="Formularios\LogIn.aspx" />
+    <Content Include="Formularios\Administracion\Reportes.aspx" />
     <Content Include="Formularios\Test.aspx" />
     <Content Include="Formularios\TestParcial.aspx" />
     <Content Include="Imagenes\AccesoDenegado.jpg" />
@@ -174,6 +178,13 @@
     <Compile Include="Formularios\AccesoDenegado.aspx.designer.cs">
       <DependentUpon>AccesoDenegado.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Administracion\AdminContenido.aspx.cs">
+      <DependentUpon>AdminContenido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Administracion\AdminContenido.aspx.designer.cs">
+      <DependentUpon>AdminContenido.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Articulos\AltaArticulos.aspx.cs">
       <DependentUpon>AltaArticulos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -210,12 +221,26 @@
     <Compile Include="Formularios\Clientes.aspx.designer.cs">
       <DependentUpon>Clientes.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Cliente\HistorialComprasCliente.aspx.cs">
+      <DependentUpon>HistorialComprasCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cliente\HistorialComprasCliente.aspx.designer.cs">
+      <DependentUpon>HistorialComprasCliente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Cliente\ListarClientesInternos.aspx.cs">
       <DependentUpon>ListarClientesInternos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Formularios\Cliente\ListarClientesInternos.aspx.designer.cs">
       <DependentUpon>ListarClientesInternos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Cliente\MovimientosCliente.aspx.cs">
+      <DependentUpon>MovimientosCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cliente\MovimientosCliente.aspx.designer.cs">
+      <DependentUpon>MovimientosCliente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Cliente\PerfilCliente.aspx.cs">
       <DependentUpon>PerfilCliente.aspx</DependentUpon>
@@ -279,6 +304,13 @@
     </Compile>
     <Compile Include="Formularios\LogIn.aspx.designer.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Administracion\Reportes.aspx.cs">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Administracion\Reportes.aspx.designer.cs">
+      <DependentUpon>Reportes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>

@@ -70,3 +70,15 @@ C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.xml
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\L3ogaliano\Documents\Repositorio\MotoGraphics\Galiano-TFI\MotoGraphics\bin\Microsoft.Owin.Security.xml
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.Owin.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.Owin.Security.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Owin.dll
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.Owin.xml
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lgaliano\Documents\Repositorio\MotoGraphics\MotoGraphics\bin\Microsoft.Owin.Security.xml
