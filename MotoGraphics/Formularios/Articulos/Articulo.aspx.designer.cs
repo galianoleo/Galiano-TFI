@@ -7,9 +7,9 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace MG.Formularios {
+namespace MG.Formularios.Articulos {
     
     
-    public partial class Clientes {
+    public partial class Articulo {
     }
 }

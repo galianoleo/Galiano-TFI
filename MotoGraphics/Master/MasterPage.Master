@@ -64,12 +64,14 @@
 
                     %><a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lblusuario" runat="server" Text=""></asp:Label>
                         <b class="caret"></b></a><%
-                        }
+                      }
                         %>
 
                     <ul class="dropdown-menu">
 
                         <li><a href="/Formularios/LogIn.aspx">Cerrar Sesion</a></li>
+                        <li><a id="aChat" runat="server" href="/Formularios/Chat/ChatAdmin.aspx">
+                            <asp:Label ID="lblChat" runat="server" Text="Chat"></asp:Label></a></li>
 
                     </ul>
                 </li>
@@ -134,8 +136,8 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reportes<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Listar Reportes</a></li>
-                            
+                            <li><a href="/Formularios/Administracion/Reportes.aspx">Listar Reportes</a></li>
+
                         </ul>
                     </li>
                 </ul>

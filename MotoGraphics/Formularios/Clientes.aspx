@@ -12,7 +12,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="item">
-                    <img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg">
+                    <img alt="Carousel Bootstrap First" src="/Imagenes/Provisorias/LucasOil.jpg" style="width:450px">
                     <div class="carousel-caption">
                         <h4>First Thumbnail label
                         </h4>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg">
+                    <img alt="Carousel Bootstrap Second" src="../Imagenes/Provisorias/Stewars.jpg" style="width:450px">
                     <div class="carousel-caption">
                         <h4>Second Thumbnail label
                         </h4>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="item active">
-                    <img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg">
+                    <img alt="Carousel Bootstrap Third" src="../Imagenes/Provisorias/Villopoto.jpg" style="width:450px">
                     <div class="carousel-caption">
                         <h4>Third Thumbnail label
                         </h4>

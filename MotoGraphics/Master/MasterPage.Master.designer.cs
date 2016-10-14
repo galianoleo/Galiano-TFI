@@ -31,6 +31,24 @@ namespace MG.Master {
         protected global::System.Web.UI.WebControls.Label lblusuario;
         
         /// <summary>
+        /// Control aChat.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor aChat;
+        
+        /// <summary>
+        /// Control lblChat.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblChat;
+        
+        /// <summary>
         /// Control contenidoPrincipal.
         /// </summary>
         /// <remarks>

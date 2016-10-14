@@ -105,9 +105,12 @@
     <Content Include="Formularios\AccesoDenegado.aspx" />
     <Content Include="Formularios\Administracion\AdminContenido.aspx" />
     <Content Include="Formularios\Articulos\AltaArticulos.aspx" />
+    <Content Include="Formularios\Articulos\Articulo.aspx" />
     <Content Include="Formularios\Articulos\Catalogo.aspx" />
+    <Content Include="Formularios\Articulos\Pagos.aspx" />
     <Content Include="Formularios\Articulos\SaleccionarArticulos.aspx" />
     <Content Include="Formularios\Chat\Chat.aspx" />
+    <Content Include="Formularios\Chat\ChatAdmin.aspx" />
     <Content Include="Formularios\Clientes.aspx" />
     <Content Include="Formularios\Cliente\HistorialComprasCliente.aspx" />
     <Content Include="Formularios\Cliente\ListarClientesInternos.aspx" />
@@ -128,12 +131,18 @@
     <Content Include="Imagenes\logoMX.jpg" />
     <Content Include="Imagenes\h1.png" />
     <Content Include="Imagenes\logo.jpg" />
+    <Content Include="Imagenes\master.png" />
+    <Content Include="Imagenes\paypal.png" />
+    <Content Include="Imagenes\Provisorias\LucasOil.jpg" />
     <Content Include="Imagenes\Provisorias\moto1.jpg" />
     <Content Include="Imagenes\Provisorias\moto2.jpg" />
     <Content Include="Imagenes\Provisorias\moto3.png" />
     <Content Include="Imagenes\Provisorias\moto4.jpg" />
     <Content Include="Imagenes\Provisorias\moto5.jpg" />
     <Content Include="Imagenes\Provisorias\moto6.jpg" />
+    <Content Include="Imagenes\Provisorias\Stewars.jpg" />
+    <Content Include="Imagenes\Provisorias\Villopoto.jpg" />
+    <Content Include="Imagenes\visa_xs.png" />
     <Content Include="Master\MasterPage.Master" />
     <Content Include="packages.config" />
     <Content Include="Master\Master.Master" />
@@ -192,12 +201,26 @@
     <Compile Include="Formularios\Articulos\AltaArticulos.aspx.designer.cs">
       <DependentUpon>AltaArticulos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Articulos\Articulo.aspx.cs">
+      <DependentUpon>Articulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Articulos\Articulo.aspx.designer.cs">
+      <DependentUpon>Articulo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Articulos\Catalogo.aspx.cs">
       <DependentUpon>Catalogo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Formularios\Articulos\Catalogo.aspx.designer.cs">
       <DependentUpon>Catalogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Articulos\Pagos.aspx.cs">
+      <DependentUpon>Pagos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Articulos\Pagos.aspx.designer.cs">
+      <DependentUpon>Pagos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Articulos\SaleccionarArticulos.aspx.cs">
       <DependentUpon>SaleccionarArticulos.aspx</DependentUpon>
@@ -212,6 +235,13 @@
     </Compile>
     <Compile Include="Formularios\Chat\Chat.aspx.designer.cs">
       <DependentUpon>Chat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Chat\ChatAdmin.aspx.cs">
+      <DependentUpon>ChatAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Chat\ChatAdmin.aspx.designer.cs">
+      <DependentUpon>ChatAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Chat\ChatHub.cs" />
     <Compile Include="Formularios\Clientes.aspx.cs">

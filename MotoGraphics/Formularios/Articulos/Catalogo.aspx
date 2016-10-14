@@ -27,7 +27,7 @@
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="#">Comprar</a>
+                            <a class="btn btn-success" href="Articulo.aspx">Comprar</a>
                         </div>
 
                     </div>
@@ -47,7 +47,7 @@
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="#">Comprar</a>
+                            <a class="btn btn-success" href="Articulo.aspx">Comprar</a>
                         </div>
 
                     </div>
@@ -67,7 +67,7 @@
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="#">Comprar</a>
+                            <a class="btn btn-success" href="Articulo.aspx">Comprar</a>
                         </div>
 
                     </div>
@@ -87,7 +87,7 @@
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="#">Comprar</a>
+                            <a class="btn btn-success" href="Articulo.aspx">Comprar</a>
                         </div>
 
                     </div>
@@ -107,7 +107,7 @@
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="#">Comprar</a>
+                            <a class="btn btn-success" href="Articulo.aspx">Comprar</a>
                         </div>
 
                     </div>
@@ -127,7 +127,7 @@
                             <p class="lead">
                                 $21.000
                             </p>
-                            <a class="btn btn-success" href="#">Comprar</a>
+                            <a class="btn btn-success" href="Articulo.aspx">Comprar</a>
                         </div>
 
                     </div>

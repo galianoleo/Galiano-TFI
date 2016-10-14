@@ -42,8 +42,8 @@ namespace DAL
 
         public void ConexionIniciarWindowsAuth()
         {
-            //string servidor = @"L3ogaliano-pc\SQLEXPRESS";
-            string servidor = "OMCPEAYDC0024";
+            string servidor = @"L3ogaliano-pc\SQLEXPRESS";
+            //string servidor = "OMCPEAYDC0024";
             string db = "TEST_TFI";
             string cadena = String.Format("Server={0}; Database={1}; Trusted_Connection={2}", servidor, db, true);
             _resultadoTipoConexion = ResultadoTipoConexion.Conectado;
